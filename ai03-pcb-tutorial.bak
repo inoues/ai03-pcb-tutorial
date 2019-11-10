@@ -364,8 +364,6 @@ F 3 "" H 2350 1340 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2350 1340 2350 1400
-Wire Wire Line
 	2350 1600 2350 1850
 Connection ~ 2350 1850
 Wire Wire Line
@@ -448,11 +446,6 @@ F 3 "" H 5800 2450 50  0001 C CNN
 	1    5800 2450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5550 2000 5805 2000
-Wire Wire Line
-	5805 2000 6135 2000
-Connection ~ 5805 2000
 Wire Wire Line
 	6435 2000 6705 2000
 Wire Wire Line
@@ -608,4 +601,13 @@ Wire Wire Line
 	3765 3750 3715 3750
 Wire Wire Line
 	8300 1725 8300 2250
+Wire Wire Line
+	1850 2150 1845 2150
+Wire Wire Line
+	2350 1340 2350 1400
+Wire Wire Line
+	6135 2000 5805 2000
+Wire Wire Line
+	5550 2000 5805 2000
+Connection ~ 5805 2000
 $EndSCHEMATC
