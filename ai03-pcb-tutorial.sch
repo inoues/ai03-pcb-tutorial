@@ -583,18 +583,8 @@ Wire Wire Line
 	5550 2200 5905 2200
 Wire Wire Line
 	5550 2100 5900 2100
-Text GLabel 3800 2350 2    50   Input ~ 0
-COL0
 Text GLabel 3765 3750 2    50   Input ~ 0
 ROW0
-Text GLabel 3800 2450 2    50   Input ~ 0
-ROW1
-Text GLabel 3800 2250 2    50   Input ~ 0
-COL1
-Wire Wire Line
-	3715 2250 3800 2250
-Wire Wire Line
-	3800 2350 3715 2350
 Wire Wire Line
 	3715 2450 3800 2450
 Wire Wire Line
@@ -610,4 +600,14 @@ Wire Wire Line
 Wire Wire Line
 	5550 2000 5805 2000
 Connection ~ 5805 2000
+Wire Wire Line
+	3795 2250 3715 2250
+Wire Wire Line
+	3800 2350 3715 2350
+Text GLabel 3800 2350 2    50   Input ~ 0
+COL0
+Text GLabel 3800 2450 2    50   Input ~ 0
+COL1
+Text GLabel 3795 2250 2    50   Input ~ 0
+ROW1
 $EndSCHEMATC
